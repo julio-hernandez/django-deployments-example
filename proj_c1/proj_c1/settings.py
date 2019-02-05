@@ -124,7 +124,7 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 
 # Media files
 MEDIA_URL = '/media/'
-MEDIA_ROOT = [MEDIA_DIR, ]
+MEDIA_ROOT = MEDIA_DIR
 
 # Login settings
 LOGIN_URL = '/appbasic/user_login'
